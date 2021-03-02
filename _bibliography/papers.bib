@@ -1,70 +1,139 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@InProceedings{Dong_2021_CVPR,
+abbr={CVPR'21},
+author = {Haiyang Mei, Bo Dong, Wen Dong, Pieter Peers, Xin Yang, Qiang Zhang, Xiaopeng Wei},
+title = {Depth-Aware Mirror Segmentation (To appear)},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+abstract = {We  present  a  novel  mirror  segmentation  method  thatleverages  depth  estimates  from  ToF-based  cameras  as  anadditional cue to disambiguate challenging cases where thecontrast or relation in RGB colors between the mirror re-flection and the surrounding scene is subtle. A key observa-tion is that ToF depth estimates do not report thetruedepthof the mirror surface, but instead return the total length ofthe reflected light paths, thereby creating obvious depth dis-continuities at the mirror boundaries.  To exploit depth in-formation in mirror segmentation, we first construct a large-scale RGB-D mirror segmentation dataset, which we subse-quently employ to train a novel depth-aware mirror segmen-tation framework. Our mirror segmentation framework firstlocates the mirrors based on color and depth discontinuitiesand correlations. Next, our model further refines the mirrorboundaries through contextual contrast taking into accountboth color and depth information.  We extensively validateour depth-aware mirror segmentation method and demon-strate that our model outperforms state-of-the-art RGB andRGB-D  based  methods  for  mirror  segmentation.   Experi-mental results also show that depth is a powerful cue formirror segmentation.},
+year = {2021},
+selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{10.1145/3386901.3388917,
+abbr={MobiSys'20},
+author = {Wu, Hao and Feng, Jinghao and Tian, Xuejin and Sun, Edward and Liu, Yunxin and Dong, Bo and Xu, Fengyuan and Zhong, Sheng},
+title = {EMO: Real-Time Emotion Recognition from Single-Eye Images for Resource-Constrained Eyewear Devices},
+year = {2020},
+isbn = {9781450379540},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3386901.3388917},
+doi = {10.1145/3386901.3388917},
+abstract = {Real-time user emotion recognition is highly desirable for many applications on eyewear devices like smart glasses. However, it is very challenging to enable this capability on such devices due to tightly constrained image contents (only eye-area images available from the on-device eye-tracking camera) and computing resources of the embedded system. In this paper, we propose and develop a novel system called EMO that can recognize, on top of a resource-limited eyewear device, real-time emotions of the user who wears it. Unlike most existing solutions that require whole-face images to recognize emotions, EMO only utilizes the single-eye-area images captured by the eye-tracking camera of the eyewear. To achieve this, we design a customized deep-learning network to effectively extract emotional features from input single-eye images and a personalized feature classifier to accurately identify a user's emotions. EMO also exploits the temporal locality and feature similarity among consecutive video frames of the eye-tracking camera to further reduce the recognition latency and system resource usage. We implement EMO on two hardware platforms and conduct comprehensive experimental evaluations. Our results demonstrate that EMO can continuously recognize seven-type emotions at 12.8 frames per second with a mean accuracy of 72.2%, significantly outperforming the state-of-the-art approach, and consume much fewer system resources.},
+booktitle = {Proceedings of the 18th International Conference on Mobile Systems, Applications, and Services},
+pages = {448–461},
+numpages = {14},
+keywords = {deep learning, visual sensing, eyewear devices, emotion recognition, single-eye images},
+location = {Toronto, Ontario, Canada},
+series = {MobiSys '20},
+html={https://dl.acm.org/doi/abs/10.1145/3386901.3388917},
+pdf={2020/Wu_2020.pdf},
+selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@article{DBLP:journals/corr/abs-1806-01477,
+  abbr={arXiv},
+  author    = {Chirag Agarwal and
+               Bo Dong and
+               Dan Schonfeld and
+               Anthony Hoogs},
+  title     = {An Explainable Adversarial Robustness Metric for Deep Learning Neural
+               Networks},
+  journal   = {CoRR},
+  volume    = {abs/1806.01477},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1806.01477},
+  archivePrefix = {arXiv},
+  eprint    = {1806.01477},
+  timestamp = {Mon, 13 Aug 2018 16:48:52 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1806-01477.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  arxiv={https://arxiv.org/abs/1806.01477}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{10.1145/2766979,
+abbr={SIGGRAPH'15},
+author = {Dong, Bo and Dong, Yue and Tong, Xin and Peers, Pieter},
+title = {Measurement-Based Editing of Diffuse Albedo with Consistent Interreflections},
+year = {2015},
+issue_date = {August 2015},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {34},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/2766979},
+doi = {10.1145/2766979},
+abstract = {We present a novel measurement-based method for editing the albedo of diffuse surfaces with consistent interreflections in a photograph of a scene under natural lighting. Key to our method is a novel technique for decomposing a photograph of a scene in several images that encode how much of the observed radiance has interacted a specified number of times with the target diffuse surface. Altering the albedo of the target area is then simply a weighted sum of the decomposed components. We estimate the interaction components by recursively applying the light transport operator and formulate the resulting radiance in each recursion as a linear expression in terms of the relevant interaction components. Our method only requires a camera-projector pair, and the number of required measurements per scene is linearly proportional to the decomposition degree for a single target area. Our method does not impose restrictions on the lighting or on the material properties in the unaltered part of the scene. Furthermore, we extend our method to accommodate editing of the albedo in multiple target areas with consistent interreflections and we introduce a prediction model for reducing the acquisition cost. We demonstrate our method on a variety of scenes and validate the accuracy on both synthetic and real examples.},
+journal = {ACM Trans. Graph.},
+month = jul,
+articleno = {112},
+numpages = {11},
+keywords = {computational illumination, interreflection decomposition, diffuse albedo editing},
+pdf={2015/10.1.1.711.9735.pdf},
+selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@InProceedings{Dong_2014_CVPR,
+abbr={CVPR'14},
+author = {Dong, Bo and Moore, Kathleen D. and Zhang, Weiyi and Peers, Pieter},
+title = {Scattering Parameters and Surface Normals from Homogeneous Translucent Materials using Photometric Stereo},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+abstract = {This paper proposes a novel photometric stereo solution to jointly estimate surface normals and scattering parameters from a globally planar, homogeneous, translucent object. Similar to classic photometric stereo, our method only requires as few as three observations of the translucent object under directional lighting. Naively applying classic photometric stereo results in blurred photometric normals. We develop a novel blind deconvolution algorithm based on inverse rendering for recovering the sharp surface normals and the material properties. We demonstrate our method on a variety of translucent objects.},
+year = {2014},
+html={https://openaccess.thecvf.com/content_cvpr_2014/html/Dong_Scattering_Parameters_and_2014_CVPR_paper.html},
+pdf={2014/Dong_2014_CVPR},
+selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@INPROCEEDINGS{8759428,
+  abbr={ISBI'19},
+  author={D. R. {Chittajallu} and B. {Dong} and P. {Tunison} and R. {Collins} and K. {Wells} and J. {Fleshman} and G. {Sankaranarayanan} and S. {Schwaitzberg} and L. {Cavuoto} and A. {Enquobahrie}},
+  booktitle={2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)}, 
+  title={XAI-CBIR: Explainable AI System for Content based Retrieval of Video Frames from Minimally Invasive Surgery Videos}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={66-69},
+  doi={10.1109/ISBI.2019.8759428},
+  abstract={In this paper, we present a human-in-the-loop explainable AI (XAI) system for content based image retrieval (CBIR) of video frames similar to a query image from minimally invasive surgery (MIS) videos for surgical education. It extracts semantic descriptors from MIS video frames using a self-supervised deep learning model. It then employs an iterative query refinement strategy where in a binary classifier trained online based on relevance feedback from the user is used to iteratively refine the search results. Lastly, it uses an XAI technique to generate a saliency map that provides a visual explanation of why the system considers a retrieved image to be similar to the query image. We evaluated the proposed XAI-CBIR system on the public Cholec80 dataset containing 80 videos of minimally invasive cholecystectomy surgeries with encouraging results.
+	    }
 }
+
+
+@inproceedings{dong2019explainability,
+  abbr={CVPRW'19},
+  title={Explainability for Content-Based Image Retrieval.},
+  author={Dong, Bo and Collins, Roddy and Hoogs, Anthony},
+  booktitle={CVPR Workshops},
+  year={2019},
+  html={https://openaccess.thecvf.com/content_CVPRW_2019/papers/Explainable%20AI/Dong_Explainability_for_Content-Based_Image_Retrieval_CVPRW_2019_paper.pdf},
+  pdf={2019/Dong_CVPRW_2019_paper.pdf}
+}
+
+@InProceedings{10.1007/978-3-319-28166-7_22,
+abbr={ACNS'15},
+author="Liu, Dachuan
+and Dong, Bo
+and Gao, Xing
+and Wang, Haining",
+editor="Malkin, Tal
+and Kolesnikov, Vladimir
+and Lewko, Allison Bishop
+and Polychronakis, Michalis",
+title="Exploiting Eye Tracking for Smartphone Authentication",
+booktitle="Applied Cryptography and Network Security",
+year="2015",
+publisher="Springer International Publishing",
+address="Cham",
+pages="457--477",
+abstract="Traditional user authentication methods using passcode or finger movement on smartphones are vulnerable to shoulder surfing attack, smudge attack, and keylogger attack. These attacks are able to infer a passcode based on the information collection of user's finger movement or tapping input. As an alternative user authentication approach, eye tracking can reduce the risk of suffering those attacks effectively because no hand input is required. However, most existing eye tracking techniques are designed for large screen devices. Many of them depend on special hardware like high resolution eye tracker and special process like calibration, which are not readily available for smartphone users. In this paper, we propose a new eye tracking method for user authentication on a smartphone. It utilizes the smartphone's front camera to capture a user's eye movement trajectories which are used as the input of user authentication. No special hardware or calibration process is needed. We develop a prototype and evaluate its effectiveness on an Android smartphone. We recruit a group of volunteers to participate in the user study. Our evaluation results show that the proposed eye tracking technique achieves very high accuracy in user authentication.",
+isbn="978-3-319-28166-7",
+pdf={2015/Liu2015.pdf},
+html={https://link.springer.com/chapter/10.1007/978-3-319-28166-7_22}
+}
+
