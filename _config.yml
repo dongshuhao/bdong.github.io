@@ -36,7 +36,7 @@ max_width: 800px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: true# The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -46,6 +46,7 @@ github_username: # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: bodong2015 # your LinkedIn user name
 scholar_userid: 3jZV_3sAAAAJ&hl # your Google Scholar ID
+  #CV: example_pdf.pdf
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -56,8 +57,8 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+#contact_note: >
+  #You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -138,8 +139,8 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Dong
+  first_name: [Bo]
 
   style: apa
   locale: en
@@ -162,7 +163,7 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    true
-enable_panelbear_analytics: false
+enable_panelbear_analytics: true
 enable_mansory:             true
 enable_math:                true
 enable_tooltips:            false

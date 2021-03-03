@@ -1,22 +1,23 @@
 ---
 layout: about
-title: about
 permalink: /
-title: Sr. Computer Scientist
-description: <a href="https://www.sri.com/information-computer-science/">SRI International</a>, Princeton, NJ.
+title: About
+position: Sr. Computer Scientist
+description: <a href="https://www.sri.com/information-computer-science/">SRI International</a>
 
 profile:
   align: right
   image: prof_pic.jpg
+  address: >
+    <p>bo dot dong at sri.com</p>
+    <p>201 Washington Rd, <br> Princeton, NJ 08540</p>
+
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+__Short Biography__: Bo Dong is a Sr. Computer Scientist of [Center of Vision Technologies](https://www.sri.com/computer-vision/) (CVT) at [SRI International](sri.com). He leads numerous sensing program activities for SRI. At the intersection of computer graphics, computational photography, and deep learning, Dr. Dong's research covers a wide range of applications in next-generation imaging systems, especially in degraded conditions (e.g., high dynamic range, ultra-fast motion). Currently, Dr. Dong focuses on bio-inspired visual systems and processing the visual information using an asynchronous event-driven method. He received a Ph.D. in Computer Science from the College of William and Mary in 2015. 
 
-__Write__ your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
