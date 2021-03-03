@@ -15,7 +15,7 @@ a, table.table a {
     text-decoration: underline;
   }
   &:hover:after {
-    width: 100%;
+    width: 120%;
   }
 }
 
@@ -25,6 +25,11 @@ a, table.table a {
 .equation {
   margin-bottom: 1rem;
   text-align: center;
+}
+
+.desc {
+    font-size: 120%;
+    font-weight: bold;
 }
 
 // Caption
@@ -362,6 +367,7 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+	  font-weight: bold;
         }
       }
       .links {
